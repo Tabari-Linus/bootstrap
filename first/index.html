@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <title>Net Ninja Pro - The Book</title>
 
     <style>
@@ -19,6 +19,7 @@
         <div class="container-xxl">
             <a href="#intro" class="navbar-brand">
                 <span class="fw-bold text-secondary">
+                    <i class="bi bi-book-half"></i>
                     Net Ninja Pro - The Book
                 </span>
             </a>
@@ -66,7 +67,12 @@
                     <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
                 </div>
                 <div class="col-md-5 text-center text-md-start">
-                    <img src="/first/asset/ebook-cover.png" class="img-fluid d-none d-md-block"  alt="">
+
+                    <!-- tooltip-->
+                    <span class="tt" data-bs-placement="bottom" title="Net Ninja Book Cover">
+                        <img src="/first/asset/ebook-cover.png" class="img-fluid d-none d-md-block"  alt="">
+                    </span>
+                    
                 </div>
             </div>
         </div>
@@ -267,13 +273,241 @@
     </section>
 
     <!-- review list  -->
+    <section id="reviews" class="bg-light">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Book Reviews <i class="bi bi-stars"></i></h2>
+                <p class="lead"> What my students have said about the book...</p>
+            </div>
 
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-8">
+                    <div class="list-group">
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">
+                                A must buy for every aspiring web dev
+                            </h5>
+                            <p class="mb-1">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Corporis nostrum nobis perspiciatis veritatis veniam temporibus 
+                                 repudiandae est eius doloribus. Ipsa deleniti ad architecto consequatur asperiores?
+                                 Natus accusantium eius deserunt voluptates!
+                            </p>
+                            <small>Review by Mario</small>
+                        </div>
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">
+                                A must buy for every aspiring web dev
+                            </h5>
+                            <p class="mb-1">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Corporis nostrum nobis perspiciatis veritatis veniam temporibus 
+                                 repudiandae est eius doloribus. Ipsa deleniti ad architecto consequatur asperiores?
+                                 Natus accusantium eius deserunt voluptates!
+                            </p>
+                            <small>Review by Mario</small>
+                        </div>
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">
+                                A must buy for every aspiring web dev
+                            </h5>
+                            <p class="mb-1">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Corporis nostrum nobis perspiciatis veritatis veniam temporibus 
+                                 repudiandae est eius doloribus. Ipsa deleniti ad architecto consequatur asperiores?
+                                 Natus accusantium eius deserunt voluptates!
+                            </p>
+                            <small>Review by Mario</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h5 class="mb-1">
+                                A must buy for every aspiring web dev
+                            </h5>
+                            <p class="mb-1">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Corporis nostrum nobis perspiciatis veritatis veniam temporibus 
+                                 repudiandae est eius doloribus. Ipsa deleniti ad architecto consequatur asperiores?
+                                 Natus accusantium eius deserunt voluptates!
+                            </p>
+                            <small>Review by Mario</small>
+                        </div>
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <h5 class="mb-1">
+                                A must buy for every aspiring web dev
+                            </h5>
+                            <p class="mb-1">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Corporis nostrum nobis perspiciatis veritatis veniam temporibus 
+                                 repudiandae est eius doloribus. Ipsa deleniti ad architecto consequatur asperiores?
+                                 Natus accusantium eius deserunt voluptates!
+                            </p>
+                            <small>Review by Mario</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- contact form  -->
+    <section id="contact">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Get in Touch</h2>
+                <p class="lead">Question to ask? Fill out the form to contact me directly...</p>
+            </div>
 
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-6">
+                    <form action="#">
+                        <label for="email" class="form-label">Email Address:</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-envelope-fill"></i>
+                            </span>
+                            <input type="email" id="email" placeholder="e.g. mario@gmail.com" class="form-control">
+                            <!-- tooltip -->
+                            <span class="input-group-text">
+                                <span class="tt" data-bs-placement="bottom" title="Enter an Email address">
+                                <i class="bi bi-question-circle text-muted"></i>
+                                </span>
+                            </span>
+                        </div>
+                        
+                        <label for="name" class="form-label">Name:</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-person-fill"></i>
+                            </span>
+                            <input type="text" placeholder="e.g. Mario" class="form-control" id="name">
+                            <!-- tooltip -->
+                            <span class="input-group-text">
+                                <span class="tt" data-bs-placement="bottom" title="Pretty self explanatory">
+                                <i class="bi bi-question-circle text-muted"></i>
+                                </span>
+                            </span>
+                        </div>
+
+                        <label for="subject" class="form-label">What is your question about</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-chat-right-dots-fill"></i>
+                            </span>
+                            <select id="subject" class="form-select">
+                                <option value="pricing" selected>Pricing query</option>
+                                <option value="content" selected>Content query</option>
+                                <option value="other" selected>Other query</option>
+                            </select>
+                        </div>
+                        
+
+                        <div class="form-floating mb-4 mt-5">
+                            <textarea id="query" class="form-control" style="height: 140px;"></textarea>
+                            <label for="query" class="form-label">Your query...</label>
+                        </div>
+
+                        <div class="mb-4 text-center">
+                            <button type="submit" class="btn btn-secondary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- get updates / model trigger  -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="text-center">
+                <h2>Stay in the Loop</h2>
+                <p class="lead">Get the latest updates as they happen...</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="text-muted my-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Corrupti, magni? Accusamus velit deleniti officiis ex quis adipisci amet blanditiis, illum aliquam,
+                         aliquid corrupti earum, libero explicabo illo culpa atque neque.
+                    </p>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">
+                        Register for Updates
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- modal itself -->
+    <div class="modal fade" id="reg-modal" tabindex="1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-tile">GEt the Latest Updates</h5>
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quod aliquam deserunt iusto neque illum atque ut asperiores eius, voluptate,
+                         sequi dicta officiis explicabo provident?
+                         Sunt modi consequuntur sint aspernatur tenetur.
+                    </p>
+                    <label for="modal-email" class="form-label">Your Email address:</label>
+                    <input type="email" placeholder="e.g. mario@example.com" class="form-control" id="modal-email">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script>
+        const tooltips = document.querySelectorAll('.tt')
+        tooltips.forEach(t => {
+            new bootstrap.Tooltip(t)
+        })
+    </script>
+
 </body>
 </html>
